@@ -764,16 +764,14 @@ img {
   border-top: none;
 }
 
-.portfolio-link {
+.portfolio__link {
   display: block;
   -webkit-transition: -webkit-box-shadow var(--anim-fast);
   transition: -webkit-box-shadow var(--anim-fast);
   transition: box-shadow var(--anim-fast);
   transition: box-shadow var(--anim-fast), -webkit-box-shadow var(--anim-fast);
 }
-
-.portfolio__link:hover,
-.portfolio__link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
